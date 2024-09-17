@@ -1,0 +1,38 @@
+class Person {
+public:
+    char name[10];
+    int id;
+    int gender; 
+
+private:
+    int pass;
+};
+
+class Student : Person {
+private:
+    int unit[10];
+    float grade[10];
+
+public:
+    char level[10]; 
+};
+
+class Employee : Person {
+public:
+    int wh;
+    int type; 
+
+private:
+    float rate;
+};
+
+class Master : Employee {
+public:
+    int class[20];
+    int grade; 
+
+private:
+    float polls[100];
+};
+        
+  mehdi jalyani
